@@ -19,6 +19,7 @@ public class Flying : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        fireFromEngine.Stop();
     }
 
     void Update()
