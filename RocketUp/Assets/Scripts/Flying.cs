@@ -5,7 +5,7 @@ using UnityEngine;
 public class Flying : MonoBehaviour
 {
 
-    //public Rigidbody2D rb;
+    public Rigidbody2D rb;
     public AudioSource audioEngine;
     public ParticleSystem fireFromEngine;
     public GameObject objectEngine;
